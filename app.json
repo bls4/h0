@@ -6,7 +6,7 @@
     "env": {
       "EMAIL" : {
         "description": "EMAIL.",
-	      "value" : "@gmail.com",
+	      "value" : "",
         "required" : true
       } ,
       "PASSWD": {
@@ -16,11 +16,6 @@
       "DEVICE_NAME" : {
         "description": "DEVICE_NAME.",
 		"value" : "",
-        "required" : true
-        },
-      "TOU" : {
-        "description": "tou-get.",
-		"value" : "-tou-accept",
         "required" : true
         }
     } 
