@@ -1,1 +1,1 @@
-FROM free32com/h0:1.0
+FROM free32com/h0:latest
