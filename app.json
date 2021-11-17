@@ -17,6 +17,11 @@
         "description": "DEVICE_NAME.",
 		"value" : "",
         "required" : true
+        },
+      "TOU" : {
+        "description": "tou-get.",
+		"value" : "-tou-accept",
+        "required" : true
         }
     } 
   }
