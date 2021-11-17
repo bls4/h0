@@ -1,15 +1,22 @@
 {
-    "name": "Womginx",
-    "description": "Fastest proxy using only nginx as the backend server",
-    "repository": "https://github.com/bls4/womginx",
-    "logo": "https://raw.githubusercontent.com/binary-person/womginx/master/public/logo.png",
-    "keywords": ["nginx"],
+    "name": "h0",
+    "repository": "https://github.com/bls4/h0",
+    "logo": "https://play-lh.googleusercontent.com/OB8xIkDrDEHWGwEow-daLIhyVHaAC4Pt3ZgsroGreUW8jqQb2QK2uvuogO1haZKAlu0=s180-rw",
     "stack": "container",
-	"env": {
-      "APP_NAME" : {
-        "description": "Name of the app.",
-                "value" : "",
+    "env": {
+      "EMAIL" : {
+        "description": "EMAIL.",
+	      "value" : "@gmail.com",
         "required" : true
-        }	
+      } ,
+      "PASSWD": {
+        "description": "PASSWD.",
+        "required" : true
+      },
+      "DEVICE_NAME" : {
+        "description": "DEVICE_NAME.",
+		"value" : "",
+        "required" : true
+        }
     } 
-}
+  }
